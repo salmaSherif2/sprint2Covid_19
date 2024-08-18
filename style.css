@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* BS eidt */
+.succed
+{
+    color: #035755;
+
+}
+.danger{
+    color: #FF383D;
+}
+.f-18
+{
+    font-size: 18px;
+}
+.f-700
+{
+    font-family:Gelion-Bold ; 
+}
+.f-300
+{
+    font-family:Gelion-Light ;
+
+}
+.fs-32
+{
+    font-size: 32px;
+}
+.fs-52
+{
+    font-size: 52px;
+}
+.f-400
+{
+    font-family:Gelion-Regular ;
+
+}
+/* fonts */
+@font-face {
+    /* 700 */
+    font-family:Gelion-Bold ; 
+    src: url(fonts/Gelion\ Bold.ttf);
+}
+@font-face {
+    /* 300 */
+    font-family:Gelion-Light ;
+    src: url(fonts/Gelion\ Light.ttf);
+}
+@font-face {
+    /*  */ 
+    font-family:Gelion-Medium ;
+    src: url(fonts/Gelion\ Medium.ttf);
+}
+@font-face {
+    /* 400 */
+    font-family:Gelion-Regular ;
+    src: url(fonts/Gelion\ Regular.ttf);
+}
+@font-face {
+    font-family:Gelion-Thin ;
+    src: url(fonts/Gelion\ Thin.ttf);
+}
+
+
+
+
+
+
+/* code  */
+
+/* nav */
+.pos {
+    position: relative;
+}
+.dot::after
+{
+    
+    content: " ";
+    position: absolute;
+border-radius: 50px;
+width: 10px;
+height: 10px;
+left: 75%;
+margin-top: 4px;
+background-color: #FF383D;
+opacity: 75%;
+text-shadow: #FF383D
+}
+button:hover{
+background-color: #FF383D;
+/* opacity: 5%; */
+color: rgb(25, 24, 24);
+border: 0px;
+
+}
+.btn-cont
+{
+    color: #ff383f;
+    font-size: 20px;
+border-radius: 65px;
+border: none;
+padding: 10px 20px;
+background-color:#FA565226 ;
+margin-top: 30px;
+}
+.right-vir
+{
+    right: 50px;
+    position: absolute;
+    top: 100%;
+
+}
+.position-cards
+{
+    position: absolute;
+    left: 4px;
+    width: 100px;
+    bottom: 25px;
+}
+
+.handle
+{
+    position: absolute;
+    left: 0%;
+    top: 20%;
+}
+.handel-vir
+{
+    position: absolute;
+    top: 95%;
+    right: 10%;
+}
+
